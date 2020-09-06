@@ -1,0 +1,32 @@
+.editor-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    .editor-left {
+        width: 50px;
+    }
+    .editor {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background: #70a1ff;
+        .container {
+            width: 100%;
+            min-width: 1344px;
+            max-width: 1400px;
+            border: 1px solid #333;
+            .box {
+                width: 100px;
+                height: 100px;
+                border: 1px solid #333;
+            }
+        }
+    }
+    .editor-right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+    }
+}
